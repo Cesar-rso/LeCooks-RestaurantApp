@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:weightSum="6">
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"/>
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:weightSum="6">
+        <TextView 
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+        <TextView 
+            android:id="@+id/txtGarcom"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Garçom"/>
+        <TextView 
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:weightSum="6">
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"/>
+
+    </TableRow>
+    
+    <TableRow
+        android:weightSum="6">
+        <Button
+            android:id="@+id/btnMesa"
+            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:text="Mesa \n000" 
+            android:onClick="numMesa"></Button>
+        <Button
+            android:id="@+id/btnLocal"
+            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:text="Local \n000"
+            android:onClick="numLocal"></Button>
+        <Button
+            android:id="@+id/btnViagem"
+            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:text="Viagem \n "
+            android:onClick="setViagem"></Button>
+    </TableRow>
+    
+    <TableRow
+        android:weightSum="6">
+        <Button
+            android:id="@+id/btnComanda"
+            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:text="Comanda \n000000"
+            android:onClick="numComanda"></Button>
+        <Button
+            android:id="@+id/btnProduto"
+            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:text="Produto \n "
+            android:onClick="Produto"></Button>
+    </TableRow>
+    
+    <TableRow
+        android:weightSum="6">
+        <Button
+            android:id="@+id/btnPrePedido"
+            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:text="Pre-Pedido \n "
+            android:onClick="PrePedido"></Button>
+        <Button
+            android:id="@+id/btnConfirma"
+            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:text="Confirma \n "
+            android:onClick="ConfirmaPed"></Button>
+    </TableRow>
+    
+    <TableRow
+        android:weightSum="6">
+        <Button
+            android:id="@+id/btnPreConta"
+            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:text="Pre-Conta \n "
+            android:onClick="PreContaComanda"></Button>
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:text="Sair \n "
+            android:onClick="Sair"></Button>
+    </TableRow>
+    
+
+</TableLayout>

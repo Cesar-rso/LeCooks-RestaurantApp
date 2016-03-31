@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/txtEscComanda" 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Escolha a comanda"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    
+    <ListView
+        android:id="@+id/ListaComanda"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"></ListView>
+    
+    <Button 
+        android:id="@+id/btnOKCom"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:textStyle="bold"
+        android:onClick="OKCom"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+    <TextView
+        android:id="@+id/txtSenha"
+        android:layout_height="70dp"
+        android:layout_width="fill_parent"
+        android:text=""
+        android:textSize="30sp" >"
+    </TextView>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="8dp" >"
+        <Button
+        	android:id="@+id/Btn1"
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="1" />
+    
+    	<Button
+       		android:id="@+id/Btn2"
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="2" />"
+    
+    	<Button 
+        	android:id="@+id/Btn3" 
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="3" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="8dp" >
+        <Button
+        	android:id="@+id/Btn4"
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="4" />
+    
+    	<Button
+       		android:id="@+id/Btn5"
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="5" />
+    
+    	<Button 
+        	android:id="@+id/Btn6" 
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="6" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="8dp" >
+        <Button
+        	android:id="@+id/Btn7"
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="7" />
+    
+    	<Button
+       		android:id="@+id/Btn8"
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="8" />
+    
+    	<Button 
+        	android:id="@+id/Btn9" 
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="9" />
+    </LinearLayout> 
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="8dp" >
+        <Button
+        	android:id="@+id/BtnOK"
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoOK"
+        	android:text="OK" />
+    
+    	<Button
+       		android:id="@+id/Btn0"
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="BotaoSenha"
+        	android:text="0" />
+    
+    	<Button 
+        	android:id="@+id/BtnCancel" 
+        	android:layout_height="60dp"
+        	android:layout_width="100dp"
+        	android:layout_gravity="center_horizontal"
+        	android:onClick="Cancelar"
+        	android:text="Deletar" />
+    </LinearLayout> "
+    
+
+</TableLayout>

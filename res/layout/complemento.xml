@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/txtProduto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:text="Produto: " />
+    
+    <ListView 
+    	android:id="@+id/ListaComp"
+    	android:layout_width="match_parent"
+    	android:layout_height="300dp"
+    	android:divider="@color/black"
+    	android:dividerHeight="1dp"></ListView>
+    
+    <TableLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TableRow 
+            android:weightSum="6">
+            
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text=" " />
+            
+		    <Button 
+		        android:id="@+id/btnMenosComp"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:textStyle="bold"
+		        android:textSize="30sp"
+		        android:text="-"
+		        android:layout_weight="4"
+		        android:onClick="Menos"/>
+		    
+		    <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text=" " />
+    </TableRow>
+    
+        <TableRow 
+            android:weightSum="6">
+            
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text=" " />
+            
+		    <Button 
+		        android:id="@+id/btnOKComp"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:textStyle="bold"
+		        android:textSize="30sp"
+		        android:text="OK"
+		        android:layout_weight="4"
+		        android:onClick="OKComp"/>
+		    
+		    <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text=" " />
+    	</TableRow>
+    
+    </TableLayout>
+    
+
+</LinearLayout>
